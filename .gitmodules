@@ -16,3 +16,9 @@
 [submodule "service_tests"]
 	path = service_tests
 	url = git://github.com/nioinnovation/service_tests.git
+[submodule "blocks/watson"]
+	path = blocks/watson
+	url = git@github.com:nio-blocks/watson.git
+[submodule "blocks/intercom"]
+	path = blocks/intercom
+	url = git@github.com:nio-blocks/intercom.git
