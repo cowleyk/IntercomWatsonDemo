@@ -1,16 +1,9 @@
-project_template
+Intercom to Watson Demo
 ================
 
-This is a sample nio project
+Demo to show how n.io can be used to integrate Intercom customer service and
+the IBM Watson API.
 
-## Encrypting zmq communications
-
-The generate_certificates.py script will generate public and private
-certificates under public_keys and private_keys folders using current
-directory, use argument -t to specify a different target root directory
-
-To launch the script from etc directory, do:
-
-```
-python scripts/generate_certificates.py
-```
+The first message of each conversation is sent through Watson's tone analyzer
+and if a negative reaction is interpreted, it will send a slack notification to
+the \#Intercom channel.

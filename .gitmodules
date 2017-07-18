@@ -22,3 +22,9 @@
 [submodule "blocks/intercom"]
 	path = blocks/intercom
 	url = git@github.com:nio-blocks/intercom.git
+[submodule "blocks/slack"]
+	path = blocks/slack
+	url = git@github.com:nio-blocks/slack.git
+[submodule "blocks/state_change"]
+	path = blocks/state_change
+	url = git@github.com:nio-blocks/state_change.git
